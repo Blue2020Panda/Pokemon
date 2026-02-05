@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zimo | JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <h1>Javascript!</h1>
+
+    <h2>Onclick Events</h2>
+    <p><a href="http://127.0.0.1:5500/js_demo/index.html" onclick="alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.'); alert('You shall not pass.')">Search Google</a></p>
+
+    <h2>JS Math</h2>
+    <p>What is 1+1?</p>
+    <button onclick="document.getElementById('add').innerHTML=1+1">Click me to find the answer</button>
+    <p id="add"></p>
+
+    <h2>Changing Text</h2>
+    <button onclick="document.getElementById('change-text').innerHTML='I know your info'">Click me</button>
+    <p id="change-text">This text will change</p>
+
+    <h2>Date and Time</h2>
+    <button onclick="document.getElementById('date').innerHTML= Date()">Click me for date and time</button>
+    <p id="date"></p>
+
+    <h2>Functions</h2>
+    <p>Function to add text.</p>
+    <button onclick="pFun()">Click me to run the function</button>
+    <p id="p-fun"></p>
+
+    <h2>Returning User Data</h2>
+    <button onclick="askName()">Click me to ask a question</button>
+    <p id="ask-name"></p>
+
+    <h2>Other Questions</h2>
+    <button onclick="askQuestion()">Click here for a question</button>
+    <p id="question"></p>
+
+    <script>
+        alert('Share your info with all the Pokémon?')
+        alert('Are you sure?')
+        alert('Absolutely positive?')
+        alert('Really?')
+        alert('Thanks for complying.')
+        alert('We now have full info of you...')
+        alert('Have fun!')
+
+        function pFun(){
+            var p = document.getElementById('p-fun')
+            p.innerHTML= 'You just ran a function!';
+            p.style.color= 'gray'
+            p.style.fontSize= '30px';
+            p.style.textAlign= 'center';
+        }
+    </script>
+</body>
+</html>
